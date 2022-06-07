@@ -10,8 +10,10 @@
 
 
 </head>
+
 <body>
     <header>
+
         <div id="font_style">        
 
             <div>
@@ -24,14 +26,15 @@
                 
                 <input type="number" id="font_size"/>
             </div>
-            <div "font_style">
-                <input type="image" src="Images/bold.png">
-                <input type="image" src="Images/italics.png">
-                <input type="image" src="Images/underline.png">
+
+            <div id="font_style">
+                <input type="image" src="Images/font_style/bold.png">
+                <input type="image" src="Images/font_style/italics.png">
+                <input type="image" src="Images/font_style/underline.png">
                 
-                <input type="image" src="Images/alineacion izquierda.jpg">
-                <input type="image" src="Images/alineacion centro.jpg">
-                <input type="image" src="Images/alineacion derecha.jpg">
+                <input type="image" src="Images/font_style/alineacion izquierda.jpg">
+                <input type="image" src="Images/font_style/alineacion centro.jpg">
+                <input type="image" src="Images/font_style/alineacion derecha.jpg">
  
             </div>
 
@@ -58,9 +61,29 @@
 
      </div>
 
+     <div id = "etiquetas">
+        <label for="cars">Etiquetas</label>
+
+            <select name="etiquetas" id="customEtiquetas">
+                <option value="nose">Tendaos</option>
+                <option value="nose">huevo</option>
+
+                
+            </select>
+
+            <button type = "button" id = "etiquetasTitulo">Titulo</button>
+            <button type = "button" id = "etiquetasSubtitulo">Subtítulo</button>
+
+    </div>
     </header>
 
+    <div id = "buscadorPalabras">
 
+        <input type="search" name="busquedaPalabra" placeholder="Buscar palabras...">
+        
+        <input type="submit" value="🔎">
+        
+    </div>
     <div id ="indice">
         <ul>
                 <!-- <por añadir con funcionalidad> -->
@@ -69,12 +92,12 @@
         </ul>
     </div>
 
-
-
-
     <div id="text_editor_area">
         <textarea name="editor" id="" cols="80" rows="84"></textarea>
 
     </div>
+
+
+
 </body>
 </html>

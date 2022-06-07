@@ -14,7 +14,7 @@
 <body>
     <header>
 
-        <div id="font_style">        
+        <div class="header_ditor">        
 
             <div>
                 <select name="fonts" id="">
@@ -34,13 +34,13 @@
             </div>
 
             <div id="font_style">
-                <input class="font_style_img" type="image" src="Images/font_style/bold.png">
-                <input class="font_style_img" type="image" src="Images/font_style/italics.png">
-                <input class="font_style_img" type="image" src="Images/font_style/underline.png">
+                <input class="button_img" type="image" src="Images/font_style/bold.png">
+                <input class="button_img" type="image" src="Images/font_style/italics.png">
+                <input class="button_img" type="image" src="Images/font_style/underline.png">
                 
-                <input class="font_style_img" type="image" src="Images/font_style/alineacion izquierda.png">
-                <input class="font_style_img" type="image" src="Images/font_style/alineacion centro.png">
-                <input class="font_style_img" type="image" src="Images/font_style/alineacion derecha.png">
+                <input class="button_img" type="image" src="Images/font_style/alineacion izquierda.png">
+                <input class="button_img" type="image" src="Images/font_style/alineacion centro.png">
+                <input class="button_img" type="image" src="Images/font_style/alineacion derecha.png">
  
             </div>
 
@@ -49,12 +49,27 @@
 
 
         </div>
+        
+        <div id = "etiquetas" class="header_ditor" >
+            <label for="cars">Etiquetas</label>
+    
+                <select name="etiquetas" id="customEtiquetas">
+                    <option value="nose">Tendaos</option>
+                    <option value="nose">huevo</option>
+    
+                    
+                </select>
+    
+                <button type = "button" id = "etiquetasTitulo">Titulo</button>
+                <button type = "button" id = "etiquetasSubtitulo">Subtítulo</button>
+    
+        </div>
 
-        <div id="Drawing">
-            <input type="image" src="Images/Drawing/pencil.png">
-            <input type="image" src="Images/Drawing/line.png">
-            <input type="image" src="Images/Drawing/shapes.png">
-            <input type="image" src="Images/Drawing/diagram.png">
+        <div id="Drawing" class="header_ditor">
+            <input type="image" class="button_draw" src="Images/Drawing/pencil.png">
+            <input type="image" class="button_draw" src="Images/Drawing/line.png">
+            <input type="image" class="button_draw" src="Images/Drawing/shapes.png">
+            <input type="image" class="button_draw" src="Images/Drawing/diagram.png">
         </div>
      </div>
 
@@ -62,20 +77,6 @@
 
      </div>
 
-     <div id = "etiquetas">
-        <label for="cars">Etiquetas</label>
-
-            <select name="etiquetas" id="customEtiquetas">
-                <option value="nose">Tendaos</option>
-                <option value="nose">huevo</option>
-
-                
-            </select>
-
-            <button type = "button" id = "etiquetasTitulo">Titulo</button>
-            <button type = "button" id = "etiquetasSubtitulo">Subtítulo</button>
-
-    </div>
     </header>
 
     <div id = "buscadorPalabras">

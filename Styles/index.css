@@ -2,8 +2,18 @@
     max-width: 30px;
 }
 
-.font_style_img{
+
+.button_img{
     width: 30px;
     margin: 1px;
     height: auto;   
+}
+
+.button_draw{
+    width: 60px;
+    margin: 1px;
+    height: auto;   
+}
+.header_ditor{
+    float: left;
 }

@@ -2,18 +2,47 @@
     max-width: 30px;
 }
 
+/*body{
+    background-color: #0D0D0D;
+}
+header{ 
+    background-color: #056CF2;
+}*/
 
 .button_img{
-    width: 30px;
+    max-width: 30px;
     margin: 1px;
     height: auto;   
+}
+.button_draw{
+    max-width: 75px;
+    margin: 1px;
+    height: auto;   
+}
+.header_editor{
+    float: left;
+    text-align: center;
 }
 
-.button_draw{
-    width: 60px;
-    margin: 1px;
-    height: auto;   
+.clear{
+    float: none;
 }
-.header_ditor{
-    float: left;
+
+.separator{
+    margin: 1%;
+    display: block;
+}
+
+#etiquetas{
+    overflow: hidden;
+    margin-top: 2%;
+    padding-inline: 20%;
+}
+
+#text_editor_area{
+    display: flex;
+    justify-content: center;
+}
+#buscadorPalabras{
+    float: right;
 }

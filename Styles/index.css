@@ -21,10 +21,17 @@ header{
     margin: 1px;
     height: auto;   
 }
+.button_img:hover{
+    background: #056CF2;
+}
+
 .button_draw{
     max-width: 75px;
     margin: 1px;
     height: auto;   
+}
+.button_draw:hover{
+    background: #056CF2;
 }
 .header_editor{
     float: left;

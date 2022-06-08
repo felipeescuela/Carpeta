@@ -1,0 +1,25 @@
+{
+  "name": "carpeta",
+  "version": "1.0.0",
+  "description": "una carpeta escolar virtualizada",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeescuela/Carpeta.git"
+  },
+  "author": "felipe maisonnave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeescuela/Carpeta/issues"
+  },
+  "homepage": "https://github.com/felipeescuela/Carpeta#readme",
+  "devDependencies": {
+    "electron": "^19.0.3"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

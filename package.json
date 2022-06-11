@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/felipeescuela/Carpeta#readme",
   "devDependencies": {
-    "electron": "^19.0.3"
+    "electron": "^19.0.3",
+    "tailwindcss": "^3.1.2"
   },
   "dependencies": {
     "electron-reload": "^2.0.0-alpha.1"

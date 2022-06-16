@@ -8,32 +8,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel='stylesheet' type='text/css' media='screen' href='Styles/index.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles/SchrollBar.css'>
+
+    <script defer src="js/TopBarFunction.js"></script>
     
     <link href="/dist/output.css" rel="stylesheet">
 
     <title>Carpeta</title>
 </head>
-
-<body class="">
+<body class="bg-stone-900">
     <div class="mainApp">
-        <div class="topBar">
-            <div class="subject_title">
-                <button id="showHideMenu" class="hide_menu_button"></button>
-
-                <div class="subject_title text-center text-white text-3xl">Materia Actual</div>
-            
-            </div>
-            <div class="titleBarBtns">
-                <button id="minimize_btn" class="top_btn minimize_btn"></button>
-                <button id="minimize_btn" class="top_btn minimize_btn"></button>
-                <button id="minimize_btn" class="top_btn minimize_btn"></button>
-            </div>
-        </div>
-
-        <header class="bg-fixes">
-            <div class="header_editor">        
-    
+        <script id="replace_with_navbar" src="js/TopBarFunction.js"></script>
+        
+        <div class="contentArea flex flex-row w-full">
+            <div id="mySidebar" class="leftMenu w-0 bg-cover bg-black"></div>
+       
+       
+            <header class="bg-fixes">
+            <div class="header_editor">
+        
                 <div>
                     <select name="fonts" id="">
                         <option value="Arial">Arial</option>
@@ -41,8 +34,8 @@
                         <option value="Comic Sans">Comic Sans</option>
                         <option value="Oswald">Oswald</option>
                     </select>
-                    
-                    <input type="number" id="font_size" placeholder="size"/>
+        
+                    <input type="number" id="font_size" placeholder="size" />
                     <select name="Color" id="">
                         <option value="Black">Black</option>
                         <option value="Red">Red</option>
@@ -50,35 +43,35 @@
                         <option value="Yellow">Yellow</option>
                     </select>
                 </div>
-    
+        
                 <div id="font_style" class="m-8">
                     <input class="button_img" type="image" src="Images/font_style/bold.png">
                     <input class="button_img" type="image" src="Images/font_style/italics.png">
                     <input class="button_img" type="image" src="Images/font_style/underline.png">
-                    
+        
                     <input class="button_img" type="image" src="Images/font_style/alineacion izquierda.png">
                     <input class="button_img" type="image" src="Images/font_style/alineacion centro.png">
                     <input class="button_img" type="image" src="Images/font_style/alineacion derecha.png">
-     
+        
                 </div>
-    
-    
-    
+        
+        
+        
             </div>
-            
-            <div id = "etiquetas" class="header_editor" >
+        
+            <div id="etiquetas" class="header_editor">
                 <label for="cars">Etiquetas</label>
         
-                    <select name="etiquetas" id="customEtiquetas">
-                        <option value="">Tendaos</option>
-                        <option value="">huevo</option>       
-                    </select>
+                <select name="etiquetas" id="customEtiquetas">
+                    <option value="">Tendaos</option>
+                    <option value="">huevo</option>
+                </select>
         
-                    <button type = "button" id = "etiquetasTitulo">Titulo</button>
-                    <button type = "button" id = "etiquetasSubtitulo">Subtítulo</button>
+                <button type="button" id="etiquetasTitulo">Titulo</button>
+                <button type="button" id="etiquetasSubtitulo">Subtítulo</button>
         
             </div>
-    
+        
             <div id="Drawing" class="header_editor">
                 <input type="image" class="button_draw" src="Images/Drawing/pencil.png">
                 <input type="image" class="button_draw" src="Images/Drawing/line.png">
@@ -86,39 +79,43 @@
                 <input type="image" class="button_draw" src="Images/Drawing/shapes.png">
                 <input type="image" class="button_draw" src="Images/Drawing/diagram.png">
             </div>
-         </div>
-    
-         
-    
-         </div>
-    
+            </div>
+        
+        
+        
+            </div>
+        
         </header>
         <div class="clear"></div>
         
         <div class="separator"></div>
-        <div id = "buscadorPalabras">
-    
+        <div id="buscadorPalabras">
+        
             <input type="search" name="busquedaPalabra" placeholder="Buscar palabras...">
-            
+        
             <input type="submit" value="🔎">
-            
+        
         </div>
-    
+        
         <div class="clear"></div>
-        <div id ="indice">
+        <div id="indice">
             <ul>
-                    <!-- <por añadir con funcionalidad> -->
-                    <li><a href="">titulo</a></li>
-                    <li><a href="">titulo 2</a></li>
+                <!-- <por añadir con funcionalidad> -->
+                <li><a href="">titulo</a></li>
+                <li><a href="">titulo 2</a></li>
             </ul>
         </div>
-    
+        
         <div id="text_editor_area">
             <textarea name="editor" id="" cols="80" rows="84"></textarea>
-    
+        
         </div>
-    
-    </div>
+        
+        </div>
+
+        </div>
+
+
 
 
 </body>

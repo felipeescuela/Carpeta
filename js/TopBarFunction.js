@@ -20,7 +20,6 @@ fetch('Components/nav.html')
   minimizeBtn = document.getElementById("minimize_btn");
   window_btn = document.getElementById("window_btn");
   closeBtn = document.getElementById("close_btn");
-  showHideMenus = document.getElementById("showHideMenu");
 
   top_bar = document.querySelector("div.topBar");
 
@@ -33,15 +32,7 @@ window_btn.addEventListener('click', () => {
   closeBtn.addEventListener('click', () => {
     ipc.send('closeApp')
   })
-  showHideMenus.addEventListener('click', () => {
-    if (isLeftMenuActive) {
-      mySidebar.style.width = '0px';
-      isLeftMenuActive = false;
-    } else {
-      mySidebar.style.width = '280px';
-      isLeftMenuActive = true;
-    }
-  })
+
 })
 function changeMaxResBtn(isMaximizedApp) {
     if (isMaximizedApp) {

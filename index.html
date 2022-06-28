@@ -16,19 +16,18 @@
 
     <title>Carpeta</title>
 </head>
-<body class="bg-stone-900">
+<body class="bg-stone-800">
     <div class="mainApp">
         <script id="replace_with_navbar" src="js/TopBarFunction.js"></script>
         
         <div class="contentArea flex flex-row w-full">
-            <div id="mySidebar" class="leftMenu w-0 bg-cover bg-black"></div>
        
        
-            <header class="bg-fixes">
-            <div class="header_editor">
+            <header class="bg-fixes fixed flex flex-row items-center w-full bg-black mt-9 text-black">
+            <div class="header_editor ">
         
-                <div>
-                    <select name="fonts" id="">
+                <div class="">
+                    <select name="fonts" id="" class="">
                         <option value="Arial">Arial</option>
                         <option value="Calibri">Calibri</option>
                         <option value="Comic Sans">Comic Sans</option>
@@ -44,7 +43,7 @@
                     </select>
                 </div>
         
-                <div id="font_style" class="m-8">
+                <div id="font_style" class="">
                     <input class="button_img" type="image" src="Images/font_style/bold.png">
                     <input class="button_img" type="image" src="Images/font_style/italics.png">
                     <input class="button_img" type="image" src="Images/font_style/underline.png">
@@ -67,8 +66,8 @@
                     <option value="">huevo</option>
                 </select>
         
-                <button type="button" id="etiquetasTitulo">Titulo</button>
-                <button type="button" id="etiquetasSubtitulo">Subtítulo</button>
+                <button type="button" id="etiquetasTitulo" class="text-white">Titulo</button>
+                <button type="button" id="etiquetasSubtitulo" class="text-white">Subtítulo</button>
         
             </div>
         
@@ -86,27 +85,22 @@
             </div>
         
         </header>
-        <div class="clear"></div>
-        
-        <div class="separator"></div>
-        <div id="buscadorPalabras">
+      
+        <div id="buscadorPalabras" class="fixed right-0 p-2 mt-32 ">
         
             <input type="search" name="busquedaPalabra" placeholder="Buscar palabras...">
         
             <input type="submit" value="🔎">
         
         </div>
-        
-        <div class="clear"></div>
-        <div id="indice">
+        <div class="fixed mt-36 ml-6 left-0 text-white font-thin text-3xl ">
             <ul>
-                <!-- <por añadir con funcionalidad> -->
-                <li><a href="">titulo</a></li>
-                <li><a href="">titulo 2</a></li>
+                <li>indice 1</li>
+                <li>indice 2</li>
             </ul>
         </div>
-        
-        <div id="text_editor_area">
+    
+        <div id="text_editor_area" class="mt-36 ">
             <textarea name="editor" id="" cols="80" rows="84"></textarea>
         
         </div>

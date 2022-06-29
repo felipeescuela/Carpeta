@@ -71,5 +71,3 @@ ipcRenderer.on("isBlur", () => {
   changeFocusTitleBar(false);
 })
 
-
-  

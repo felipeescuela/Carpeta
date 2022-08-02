@@ -12,6 +12,7 @@ El objetivo de este proyecto es el de crear una forma  de poder sustituir las ca
  - [x] Añadir Slate
  - [x] Añadir Moongose
  - [x] Hacer Readme.md
+ - [X] Crear un mejor prototipo 
 
 ## Matías Rueda
 
@@ -21,7 +22,6 @@ El objetivo de este proyecto es el de crear una forma  de poder sustituir las ca
 
 ## Tareas Pendientes
 
- - [ ] Crear un mejor prototipo mas simple
  - [ ] Depurar Todo el Proyecto
  - [ ] Añadir React
  - [ ] Hacer nuevo diseño y que este sea Responsive

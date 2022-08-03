@@ -17,7 +17,7 @@ El objetivo de este proyecto es el de crear una forma  de poder sustituir las ca
 ## Matías Rueda
 
  - [x] Agregar en HTML botón titulo y subtitulo
- - [x] Agregar en HTML dropdown para
+ - [x] Agregar en HTML dropdown para elegir filtros
  - [x] Agregar al HTML barra de busqueda
 
 ## Tareas Pendientes
